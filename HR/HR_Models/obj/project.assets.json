@@ -76,6 +76,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -237,6 +238,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.AspNetCore.Http.Features/5.0.17": {
         "type": "package",
         "dependencies": {
@@ -254,6 +257,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.JsonPatch/9.0.0-preview.6.24328.4": {
         "type": "package",
         "dependencies": {
@@ -404,6 +408,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
@@ -754,7 +760,11 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.CSharp/4.7.0": {
+=======
+      "Microsoft.CSharp/4.5.0": {
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -1055,7 +1065,11 @@
           "System.Text.Json": "9.0.0-preview.6.24327.7"
         },
         "compile": {
+<<<<<<< HEAD
           "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+=======
+          "lib/net8.0/_._": {
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
             "related": ".xml"
           }
         },
@@ -1068,6 +1082,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1103,6 +1118,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Extensions.Logging/9.0.0-preview.6.24327.7": {
         "type": "package",
         "dependencies": {
@@ -1143,6 +1160,7 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.ObjectPool/2.2.0": {
         "type": "package",
         "compile": {
@@ -1156,6 +1174,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Extensions.Options/9.0.0-preview.6.24327.7": {
         "type": "package",
         "dependencies": {
@@ -1326,6 +1346,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1343,6 +1364,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -1411,6 +1434,7 @@
           "buildTransitive/Mono.TextTemplating.targets": {}
         }
       },
+<<<<<<< HEAD
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -1433,6 +1457,8 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -2086,6 +2112,7 @@
         "logo.png"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "sha512": "VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
       "type": "package",
@@ -2203,6 +2230,8 @@
         "microsoft.aspnetcore.http.extensions.nuspec"
       ]
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.AspNetCore.Http.Features/5.0.17": {
       "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
       "type": "package",
@@ -2222,6 +2251,7 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.JsonPatch/9.0.0-preview.6.24328.4": {
       "sha512": "CqfR94e0knNAJ0zTGZ5vh9zs1wH9u3i/kAk3lRkctaXJaGEKqymWqUZt/eLX3PkN9BW2ilZAR81LrrTQGlq+Mw==",
       "type": "package",
@@ -2334,6 +2364,8 @@
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "sha512": "3aeMZ1N0lJoSyzqiP03hqemtb1BijhsJADdobn/4nsMJ8V1H+CrpuduUe4hlRdx+ikBQju1VGjMD1GJ3Sk05Eg==",
       "type": "package",
@@ -3309,10 +3341,17 @@
         "microsoft.codeanalysis.workspaces.msbuild.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
       "path": "microsoft.csharp/4.7.0",
+=======
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3325,7 +3364,10 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+<<<<<<< HEAD
         "lib/netstandard2.0/Microsoft.CSharp.xml",
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -3335,7 +3377,11 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
+<<<<<<< HEAD
         "microsoft.csharp.4.7.0.nupkg.sha512",
+=======
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -3774,6 +3820,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
       "sha512": "EcnaSsPTqx2MGnHrmWOD0ugbuuqVT8iICqSqPzi45V5/MA1LjUNb0kwgcxBGqizV1R+WeBK7/Gw25Jzkyk9bIw==",
       "type": "package",
@@ -3800,6 +3847,8 @@
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Extensions.Logging/9.0.0-preview.6.24327.7": {
       "sha512": "tlkQLKFFTi+H6umvfx9AaZJte5Al/w3TMdgypN1cUKga+bKMdfOtuKLhehcvk+tp3n1fYZ3mBV3rGwJaaK3Gnw==",
       "type": "package",
@@ -3901,6 +3950,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "sha512": "gA8H7uQOnM5gb+L0uTNjViHYr+hRDqCdfugheGo/MxQnuHzmhhzCBTIPm19qL1z1Xe0NEMabfcOBGv9QghlZ8g==",
       "type": "package",
@@ -3914,6 +3964,8 @@
         "microsoft.extensions.objectpool.nuspec"
       ]
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Extensions.Options/9.0.0-preview.6.24327.7": {
       "sha512": "iCNzE32Jeb3Z7F1PF9FYPGn7rAlG/wHHyrGm6re8+31mU1mpzQX+qoOald1Uo5jJtx/JTLf40OKSZn1cC+Wmyg==",
       "type": "package",
@@ -4171,6 +4223,7 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers/2.2.0": {
       "sha512": "iZNkjYqlo8sIOI0bQfpsSoMTmB/kyvmV2h225ihyZT33aTp48ZpF6qYnXxzSXmHt8DpBAwBTX+1s1UFLbYfZKg==",
       "type": "package",
@@ -4184,6 +4237,8 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -4280,6 +4335,7 @@
         "readme.md"
       ]
     },
+<<<<<<< HEAD
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -4339,6 +4395,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -5510,8 +5568,11 @@
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
+<<<<<<< HEAD
       "Microsoft.AspNetCore.JsonPatch >= 9.0.0-preview.6.24328.4",
       "Microsoft.AspNetCore.Mvc.Formatters.Json >= 2.2.0",
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.EntityFrameworkCore >= 9.0.0-preview.6.24327.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-preview.6.24327.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0-preview.6.24327.4",
@@ -5570,6 +5631,7 @@
             "target": "Package",
             "version": "[5.0.17, )"
           },
+<<<<<<< HEAD
           "Microsoft.AspNetCore.JsonPatch": {
             "target": "Package",
             "version": "[9.0.0-preview.6.24328.4, )"
@@ -5578,6 +5640,8 @@
             "target": "Package",
             "version": "[2.2.0, )"
           },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.0-preview.6.24327.4, )"

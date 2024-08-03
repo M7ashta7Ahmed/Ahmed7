@@ -20,10 +20,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+<<<<<<< HEAD
     <PackageReference Include="Serilog" Version="4.0.2-dev-02220" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
@@ -31,8 +34,11 @@
     <ProjectReference Include="..\HR_Models\HR_Models.csproj" />
   </ItemGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <Folder Include="loggers\" />
   </ItemGroup>
 
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 </Project>

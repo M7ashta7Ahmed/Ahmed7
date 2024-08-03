@@ -6,7 +6,10 @@ using HR_Models.Models;
 using HR_Models.Models.Creation;
 using HR_Models.Models.VM;
 using Microsoft.AspNetCore.Http;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.JsonPatch;
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 using Microsoft.AspNetCore.Mvc;
 
 namespace HR.Controllers
@@ -71,7 +74,11 @@ namespace HR.Controllers
         [HttpPut("/api/PutsSalary/{id}")]
         public async Task<ActionResult< Salary>> PutUniverCity(Guid id, [FromBody] Salary salary)
         {
+<<<<<<< HEAD
             await repositry.Put(id, salary);
+=======
+            await repositry.Patch(id, salary);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
             return NoContent();
         }
 
@@ -95,6 +102,7 @@ namespace HR.Controllers
 
 
 
+<<<<<<< HEAD
         [HttpPatch("/api/Salary/Patch")]
         public async Task<ActionResult<Salary>> UpdateSalary(Guid id, JsonPatchDocument<Salary> emp)
         {
@@ -106,6 +114,8 @@ namespace HR.Controllers
             return Ok(patches);
         }
 
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
 
 

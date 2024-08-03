@@ -3,9 +3,13 @@ using HR.Repositry;
 using HR.Repositry.Serves;
 using HR_Models.Models;
 using HR_Models.Models.VM;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+=======
+using Microsoft.EntityFrameworkCore;
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
 namespace HR
 {
@@ -15,6 +19,7 @@ namespace HR
         {
             var builder = WebApplication.CreateBuilder(args);
 
+<<<<<<< HEAD
 
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
@@ -32,11 +37,19 @@ namespace HR
                       options.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
                   });
 
+=======
+            // Add services to the container.
+
+            builder.Services.AddControllers();
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+<<<<<<< HEAD
               
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
 
 
@@ -51,6 +64,7 @@ namespace HR
             builder.Services.AddScoped<IRepositryAllModels<Employee, EmployeeSummary>, RepositryAllModels<Employee, EmployeeSummary>>();
             builder.Services.AddScoped<IRepositryAllModels<UniverCity, UniverCitySummary>, RepositryAllModels<UniverCity, UniverCitySummary>>();
             builder.Services.AddScoped<IRepositryAllModels<Salary, SalarySummary>, RepositryAllModels<Salary, SalarySummary>>();
+<<<<<<< HEAD
             builder.Services.AddScoped<IRepositryAllModels<EmployeeDepartment, EmployeeDepartmentSummary >, RepositryAllModels<EmployeeDepartment, EmployeeDepartmentSummary>>();
             builder.Services.AddScoped<IRepositryAllModels<Department, DepartmentSummary>, RepositryAllModels<Department, DepartmentSummary>>();
             builder.Services.AddScoped<IRepositryAllModels<Leave_Balances, Leave_BalancesSummary>, RepositryAllModels<Leave_Balances, Leave_BalancesSummary>>();
@@ -69,10 +83,13 @@ namespace HR
             builder.Services.AddScoped<IRepositryUpdate<Employee>, RepositryUpdate<Employee>>();
 
 
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
+<<<<<<< HEAD
             builder.Services.AddControllers()
                    .AddNewtonsoftJson(options =>
                    {
@@ -80,6 +97,11 @@ namespace HR
                    });
 
             builder.Host.UseSerilog();
+=======
+
+
+
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
             var app = builder.Build();
 

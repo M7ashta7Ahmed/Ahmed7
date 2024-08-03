@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
 using HR_Models.Models.Creation;
 using HR_Models.Models.VM;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.JsonPatch;
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
 namespace HR_Models.Models.Profile_Map
 {
@@ -44,6 +47,7 @@ namespace HR_Models.Models.Profile_Map
 
 
 
+<<<<<<< HEAD
 
             CreateMap<EmployeeDepartment, EmployeeDepartmentSummary>();
             CreateMap<EmployeeDepartmentSummary, EmployeeDepartment>();
@@ -105,5 +109,10 @@ namespace HR_Models.Models.Profile_Map
             CreateMap<EmployeeSummary, Employee>();
         }
         //Rewards
+=======
+        }
+
+
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     }
 }

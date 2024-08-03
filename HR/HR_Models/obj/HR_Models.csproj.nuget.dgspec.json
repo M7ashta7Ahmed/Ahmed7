@@ -53,6 +53,7 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+<<<<<<< HEAD
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[9.0.0-preview.6.24328.4, )"
@@ -61,6 +62,8 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0-preview.6.24327.4, )"

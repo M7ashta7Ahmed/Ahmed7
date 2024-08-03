@@ -34,7 +34,11 @@ namespace HR.Migrations
 
                     b.HasKey("id");
 
+<<<<<<< HEAD
                     b.ToTable("citys");
+=======
+                    b.ToTable("citys", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Department", b =>
@@ -52,7 +56,11 @@ namespace HR.Migrations
 
                     b.HasKey("id");
 
+<<<<<<< HEAD
                     b.ToTable("departments");
+=======
+                    b.ToTable("departments", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Employee", b =>
@@ -111,7 +119,11 @@ namespace HR.Migrations
 
                     b.HasIndex("UniverCityId");
 
+<<<<<<< HEAD
                     b.ToTable("employees");
+=======
+                    b.ToTable("employees", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.EmployeeDepartment", b =>
@@ -148,7 +160,11 @@ namespace HR.Migrations
 
                     b.HasIndex("EmployeeId");
 
+<<<<<<< HEAD
                     b.ToTable("EmployeeDepartment");
+=======
+                    b.ToTable("EmployeeDepartment", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Leave_Balances", b =>
@@ -173,7 +189,11 @@ namespace HR.Migrations
 
                     b.HasIndex("EmployeeId");
 
+<<<<<<< HEAD
                     b.ToTable("balances");
+=======
+                    b.ToTable("balances", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Penalties", b =>
@@ -203,7 +223,11 @@ namespace HR.Migrations
 
                     b.HasIndex("EmployeeId");
 
+<<<<<<< HEAD
                     b.ToTable("penalties");
+=======
+                    b.ToTable("penalties", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Rewards", b =>
@@ -233,7 +257,11 @@ namespace HR.Migrations
 
                     b.HasIndex("EmployeeId");
 
+<<<<<<< HEAD
                     b.ToTable("rewards");
+=======
+                    b.ToTable("rewards", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Salary", b =>
@@ -258,7 +286,11 @@ namespace HR.Migrations
 
                     b.HasIndex("EmployeeId");
 
+<<<<<<< HEAD
                     b.ToTable("salaries");
+=======
+                    b.ToTable("salaries", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.UniverCity", b =>
@@ -273,7 +305,11 @@ namespace HR.Migrations
 
                     b.HasKey("id");
 
+<<<<<<< HEAD
                     b.ToTable("univers");
+=======
+                    b.ToTable("univers", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Vacation", b =>
@@ -305,7 +341,11 @@ namespace HR.Migrations
 
                     b.HasIndex("EmployeeId");
 
+<<<<<<< HEAD
                     b.ToTable("vacations");
+=======
+                    b.ToTable("vacations", (string)null);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
                 });
 
             modelBuilder.Entity("HR_Models.Models.Employee", b =>

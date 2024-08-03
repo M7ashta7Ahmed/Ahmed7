@@ -16,10 +16,13 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.6.24327.4",
+<<<<<<< HEAD
           "Serilog": "4.0.2-dev-02220",
           "Serilog.Extensions.Hosting": "8.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "6.0.0",
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -41,7 +44,11 @@
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
           "System.ClientModel": "1.0.0",
+<<<<<<< HEAD
           "System.Diagnostics.DiagnosticSource": "8.0.0",
+=======
+          "System.Diagnostics.DiagnosticSource": "6.0.1",
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
           "System.Memory.Data": "1.0.2",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Encodings.Web": "9.0.0-preview.6.24327.7",
@@ -80,6 +87,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -142,6 +150,8 @@
           "System.Buffers": "4.5.0"
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.AspNetCore.Http.Features/5.0.17": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.6.24327.7",
@@ -160,6 +170,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Mvc.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Routing.Abstractions": "2.2.0",
@@ -191,6 +202,8 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.7": {
         "dependencies": {
           "Microsoft.AspNetCore.JsonPatch": "9.0.0-preview.6.24328.4",
@@ -204,6 +217,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.6.24327.7"
@@ -229,6 +243,8 @@
           "System.Text.Encodings.Web": "9.0.0-preview.6.24327.7"
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -756,6 +772,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.6.24327.7",
@@ -777,6 +794,8 @@
           "Microsoft.Extensions.Logging.Abstractions": "9.0.0-preview.6.24327.7"
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Extensions.Logging/9.0.0-preview.6.24327.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.0-preview.6.24327.7",
@@ -801,7 +820,10 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.ObjectPool/2.2.0": {},
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Extensions.Options/9.0.0-preview.6.24327.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.6.24327.7",
@@ -825,7 +847,11 @@
       "Microsoft.Identity.Client/4.60.3": {
         "dependencies": {
           "Microsoft.IdentityModel.Abstractions": "6.35.0",
+<<<<<<< HEAD
           "System.Diagnostics.DiagnosticSource": "8.0.0"
+=======
+          "System.Diagnostics.DiagnosticSource": "6.0.1"
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
         },
         "runtime": {
           "lib/net6.0/Microsoft.Identity.Client.dll": {
@@ -916,12 +942,15 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.6.24327.7",
           "System.Buffers": "4.5.0"
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.OpenApi/1.2.3": {
@@ -975,6 +1004,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Serilog/4.0.2-dev-02220": {
         "runtime": {
           "lib/net8.0/Serilog.dll": {
@@ -1032,6 +1062,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1070,7 +1102,10 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Buffers/4.5.0": {},
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1164,7 +1199,15 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
+=======
+      "System.Diagnostics.DiagnosticSource/6.0.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "System.Diagnostics.EventLog/8.0.0": {},
       "System.Drawing.Common/4.7.0": {
         "dependencies": {
@@ -1305,8 +1348,11 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.JsonPatch": "9.0.0-preview.6.24328.4",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0",
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
           "Microsoft.EntityFrameworkCore": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4"
         },
@@ -1350,6 +1396,7 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1413,6 +1460,8 @@
       "path": "microsoft.aspnetcore.http.extensions/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.AspNetCore.Http.Features/5.0.17": {
       "type": "package",
       "serviceable": true,
@@ -1427,6 +1476,7 @@
       "path": "microsoft.aspnetcore.jsonpatch/9.0.0-preview.6.24328.4",
       "hashPath": "microsoft.aspnetcore.jsonpatch.9.0.0-preview.6.24328.4.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Mvc.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1448,6 +1498,8 @@
       "path": "microsoft.aspnetcore.mvc.formatters.json/2.2.0",
       "hashPath": "microsoft.aspnetcore.mvc.formatters.json.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.7": {
       "type": "package",
       "serviceable": true,
@@ -1455,6 +1507,7 @@
       "path": "microsoft.aspnetcore.mvc.newtonsoftjson/8.0.7",
       "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.8.0.7.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1483,6 +1536,8 @@
       "path": "microsoft.aspnetcore.webutilities/2.2.0",
       "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1665,6 +1720,7 @@
       "path": "microsoft.extensions.dependencymodel/9.0.0-preview.6.24327.7",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.0-preview.6.24327.7.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1686,6 +1742,8 @@
       "path": "microsoft.extensions.hosting.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Extensions.Logging/9.0.0-preview.6.24327.7": {
       "type": "package",
       "serviceable": true,
@@ -1700,6 +1758,7 @@
       "path": "microsoft.extensions.logging.abstractions/9.0.0-preview.6.24327.7",
       "hashPath": "microsoft.extensions.logging.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1707,6 +1766,8 @@
       "path": "microsoft.extensions.objectpool/2.2.0",
       "hashPath": "microsoft.extensions.objectpool.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Extensions.Options/9.0.0-preview.6.24327.7": {
       "type": "package",
       "serviceable": true,
@@ -1777,6 +1838,7 @@
       "path": "microsoft.identitymodel.tokens/6.35.0",
       "hashPath": "microsoft.identitymodel.tokens.6.35.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1784,6 +1846,8 @@
       "path": "microsoft.net.http.headers/2.2.0",
       "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1840,6 +1904,7 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Serilog/4.0.2-dev-02220": {
       "type": "package",
       "serviceable": true,
@@ -1875,6 +1940,8 @@
       "path": "serilog.sinks.file/6.0.0",
       "hashPath": "serilog.sinks.file.6.0.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
       "serviceable": true,
@@ -1903,6 +1970,7 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "System.Buffers/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1910,6 +1978,8 @@
       "path": "system.buffers/4.5.0",
       "hashPath": "system.buffers.4.5.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "System.ClientModel/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1980,12 +2050,21 @@
       "path": "system.configuration.configurationmanager/8.0.0",
       "hashPath": "system.configuration.configurationmanager.8.0.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "System.Diagnostics.DiagnosticSource/8.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
       "path": "system.diagnostics.diagnosticsource/8.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
+=======
+    "System.Diagnostics.DiagnosticSource/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
+      "path": "system.diagnostics.diagnosticsource/6.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512"
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     },
     "System.Diagnostics.EventLog/8.0.0": {
       "type": "package",

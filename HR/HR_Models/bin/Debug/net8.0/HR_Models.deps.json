@@ -10,8 +10,11 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.JsonPatch": "9.0.0-preview.6.24328.4",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0",
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
           "Microsoft.EntityFrameworkCore": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.Design": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4",
@@ -75,6 +78,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -191,6 +195,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.AspNetCore.Http.Features/5.0.17": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.6.24327.7",
@@ -203,6 +209,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.JsonPatch/9.0.0-preview.6.24328.4": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -313,6 +320,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -613,7 +622,11 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.CSharp/4.7.0": {},
+=======
+      "Microsoft.CSharp/4.5.0": {},
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Data.SqlClient/5.2.1": {
         "dependencies": {
           "Azure.Identity": "1.11.3",
@@ -839,6 +852,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.6.24327.7"
@@ -864,6 +878,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Extensions.Logging/9.0.0-preview.6.24327.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.0-preview.6.24327.7",
@@ -888,6 +904,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.ObjectPool/2.2.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
@@ -896,6 +913,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.Extensions.Options/9.0.0-preview.6.24327.7": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.6.24327.7",
@@ -999,7 +1018,11 @@
       },
       "Microsoft.IdentityModel.Tokens/6.35.0": {
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.CSharp": "4.7.0",
+=======
+          "Microsoft.CSharp": "4.5.0",
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
           "Microsoft.IdentityModel.Logging": "6.35.0",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
@@ -1010,6 +1033,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Net.Http.Headers/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.0-preview.6.24327.7",
@@ -1022,6 +1046,8 @@
           }
         }
       },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.SqlServer.Server/1.0.0": {
@@ -1048,6 +1074,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -1057,6 +1084,8 @@
         }
       },
       "System.Buffers/4.5.0": {},
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1348,6 +1377,7 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1411,6 +1441,8 @@
       "path": "microsoft.aspnetcore.http.extensions/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.AspNetCore.Http.Features/5.0.17": {
       "type": "package",
       "serviceable": true,
@@ -1418,6 +1450,7 @@
       "path": "microsoft.aspnetcore.http.features/5.0.17",
       "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.JsonPatch/9.0.0-preview.6.24328.4": {
       "type": "package",
       "serviceable": true,
@@ -1474,6 +1507,8 @@
       "path": "microsoft.aspnetcore.webutilities/2.2.0",
       "hashPath": "microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1537,12 +1572,21 @@
       "path": "microsoft.codeanalysis.workspaces.msbuild/4.8.0",
       "hashPath": "microsoft.codeanalysis.workspaces.msbuild.4.8.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+=======
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     },
     "Microsoft.Data.SqlClient/5.2.1": {
       "type": "package",
@@ -1649,6 +1693,7 @@
       "path": "microsoft.extensions.dependencymodel/9.0.0-preview.6.24327.7",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.0-preview.6.24327.7.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1663,6 +1708,8 @@
       "path": "microsoft.extensions.hosting.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Extensions.Logging/9.0.0-preview.6.24327.7": {
       "type": "package",
       "serviceable": true,
@@ -1677,6 +1724,7 @@
       "path": "microsoft.extensions.logging.abstractions/9.0.0-preview.6.24327.7",
       "hashPath": "microsoft.extensions.logging.abstractions.9.0.0-preview.6.24327.7.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1684,6 +1732,8 @@
       "path": "microsoft.extensions.objectpool/2.2.0",
       "hashPath": "microsoft.extensions.objectpool.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.Extensions.Options/9.0.0-preview.6.24327.7": {
       "type": "package",
       "serviceable": true,
@@ -1754,6 +1804,7 @@
       "path": "microsoft.identitymodel.tokens/6.35.0",
       "hashPath": "microsoft.identitymodel.tokens.6.35.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -1761,6 +1812,8 @@
       "path": "microsoft.net.http.headers/2.2.0",
       "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1796,6 +1849,7 @@
       "path": "mono.texttemplating/3.0.0-preview-0052-g5d0f76c785",
       "hashPath": "mono.texttemplating.3.0.0-preview-0052-g5d0f76c785.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
@@ -1810,6 +1864,8 @@
       "path": "system.buffers/4.5.0",
       "hashPath": "system.buffers.4.5.0.nupkg.sha512"
     },
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
     "System.ClientModel/1.0.0": {
       "type": "package",
       "serviceable": true,

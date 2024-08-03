@@ -4,9 +4,13 @@ using HR.Repositry.Serves;
 using HR_Models.Models;
 using HR_Models.Models.Creation;
 using HR_Models.Models.VM;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+=======
+using Microsoft.AspNetCore.Mvc;
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 using System.Threading.Tasks;
 
 namespace HR.Controllers
@@ -60,7 +64,11 @@ namespace HR.Controllers
         [HttpPut("/api/PutCity/{id}")]
         public async Task<ActionResult<City>> PutEmployee(Guid id,[FromBody] City city)
         {
+<<<<<<< HEAD
             repocity.Put(id,city);
+=======
+            repocity.Patch(id,city);
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
             
             return NoContent();
 
@@ -82,6 +90,7 @@ namespace HR.Controllers
 
 
 
+<<<<<<< HEAD
         // return List in Emplyee 
         [HttpGet("api/ListEmployee")]
         public async Task<ActionResult<List<Employee>>> GetListEmployeesInCity()
@@ -110,6 +119,11 @@ namespace HR.Controllers
             }
             return Ok(patches);
         }
+=======
+
+
+
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
 
 
 

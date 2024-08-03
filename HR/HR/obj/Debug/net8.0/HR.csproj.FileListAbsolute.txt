@@ -172,9 +172,12 @@ C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\obj\Debug\net8.0\HR.genrunt
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\obj\Debug\net8.0\ref\HR.dll
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+<<<<<<< HEAD
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\obj\Debug\net8.0\HR.sourcelink.json
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Serilog.dll
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
 C:\Users\NOUR-ALSHAM\source\graduatio-nproject\HR\HR\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+=======
+>>>>>>> 9671e78d072c5d063b832621597579a2a7aeb1b3
